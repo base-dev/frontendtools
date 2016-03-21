@@ -12,6 +12,7 @@ RUN apt-get update -y && \
     npm install -g \
     bower
     webpack
+    gulp
 
 
 # For some strange reason Bower doesn't like running

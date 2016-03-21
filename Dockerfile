@@ -4,7 +4,7 @@ WORKDIR /tmp
 
 RUN apt-get update -y && \
     apt-get install -y curl git && \
-    curl -sL https://deb.nodesource.com/setup | bash -  && \
+    curl -sL https://deb.nodesource.com/setup_0.12 | bash - && \
     apt-get install -y nodejs  && \
     npm -g install npm@latest-2 && \
     apt-get remove --purge curl -y  && \

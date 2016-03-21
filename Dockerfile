@@ -8,10 +8,11 @@ RUN apt-get update -y && \
     apt-get install -y nodejs  && \
     npm -g install npm@latest-2 && \
     apt-get remove --purge curl -y  && \
-    apt-get clean && \
-    npm install -g \
-    bower
-    webpack
+    apt-get clean
+
+RUN npm install -g \
+    bower \
+    webpack \
     gulp
 
 

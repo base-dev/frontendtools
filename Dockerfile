@@ -29,3 +29,6 @@ WORKDIR /data
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["help"]
+
+# Gulp runs some services talk talk on all kinds of ports
+EXPOSE 3000-65535

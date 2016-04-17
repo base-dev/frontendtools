@@ -15,4 +15,4 @@ then
 fi
 
 # We want to leave the quotes off (or at least we believe we want that)
-gosu worker npm ${*}
+gosu worker ${*}

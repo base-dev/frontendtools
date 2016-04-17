@@ -1,13 +1,11 @@
-# npm
+# Frontend Tools
 
 Docker image with some development tools.
 
 This image builds from `thgs/cli`, which builds from `debian:jessie`.
 
 *Fair warning*: This image may not be available from docker hub in the future,
-see [Building the image](#Building-the-image) for build instructions.  Also,
-the name of the image and this repo is very likely to change, as `npm` isn't
-that good of a name, and the `tghs` project is unmaintained.
+see [Building the image](#Building-the-image) for build instructions.
 
 ### Includes
 - node 0.12
